@@ -1,0 +1,12 @@
+Question 1
+Find the output of the following code snippet: 
+int i =0, j = 0;
+int *p = &i, *q = &j;
+q = p;
+*q = 2
+cout<<i<<" "<<j;
+
+
+
+_________>	in above problem if there is a (;) after assignment of (2) in (*q),
+_________>	then answer will be____ 2 0
